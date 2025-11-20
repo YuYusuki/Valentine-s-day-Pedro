@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: "bird" ;
-  src: url("/assets/font/Birds of Paradise.ttf");
+  src: url("./assets/font/Birds of Paradise.ttf");
 }
 :root{
   --primary-color: #C0FFC8;
@@ -196,3 +196,4 @@ box-shadow: 0 0 5px #C0FFC8,
   font-size: 20px;
 }
 }
+
