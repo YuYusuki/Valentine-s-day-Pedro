@@ -1,0 +1,49 @@
+{
+   "photos":[
+      {
+         "url":"./assets/img/1.jpg"
+      },
+      {
+         "url":"./assets/img/2.jpg"
+      },
+      {
+         "url":"./assets/img/3.jpg"
+      },
+      {
+         "url":"./assets/img/4.jpg"
+      },
+      {
+         "url":"./assets/img/5.jpg"
+      },
+      {
+         "url":"./assets/img/6.jpg"
+      },
+      {
+         "url":"./assets/img/7.jpg"
+      },
+      {
+         "url":"./assets/img/8.jpg"
+      }
+   ],
+   "video":[
+      {
+         "url":"./assets/video/1.mp4"
+      }
+   ],
+   "audio":[
+      {
+         "capa":"./assets/img/capa.jpeg",
+         "url":"./assets/audio/01.mp3",
+         "title":"Afrodite",
+         "singer":"Delacruz e IZA"
+      }
+   ],
+   "infor":[
+      {
+         "mens":"Pedro e Kaylane, dois corações que se encontraram para escrever a mais linda história de amor.Cada sorriso dela ilumina o mundo dele, e cada abraço dele é o lar dela.Juntos, são o motivo do próprio amor acreditar no destino. 💖"
+      },
+      {
+         "dtInicio":"2024-06-28"
+      }
+   ]
+}
