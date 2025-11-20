@@ -59,8 +59,9 @@ box-shadow: 0 0 5px #C0FFC8,
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow-x: hidden;
+    overflow: hidden;
     max-width: 99%;
+    height: auto;
 }
 
 .content{
@@ -196,4 +197,5 @@ box-shadow: 0 0 5px #C0FFC8,
   font-size: 20px;
 }
 }
+
 
