@@ -15,7 +15,6 @@ let i = 0
 function start() {
   entrada.style.display = 'none'
   audio.play()
-  window.open("https://www.instagram.com/p/DK7KO4AuOyo/comments/?__coig_login=1&deoia=1")
 }
 
   fetch("./assets/base/db.json").then(res => res.json()).then(data => {
