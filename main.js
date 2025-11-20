@@ -31,7 +31,7 @@ function time(prop) {
     setInterval(() => {
   const agora = new Date();
   const inicio = new Date(item.dtInicio);
-msg.innerHTML = `Pedro e Kaylane, dois corações que se encontraram para escrever a mais linda história de amor.Cada sorriso dela ilumina o mundo dele, e cada abraço dele é o lar dela.Juntos, são o motivo do próprio amor acreditar no destino. 💖`
+msg.innerHTML = `Pedro e Kayani, dois corações que se encontraram para escrever a mais linda história de amor.Cada sorriso dela ilumina o mundo dele, e cada abraço dele é o lar dela.Juntos, são o motivo do próprio amor acreditar no destino. 💖`
   if (inicio > agora) {
     console.log("A data inicial é no futuro!");
     return;
