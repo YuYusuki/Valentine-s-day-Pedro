@@ -8,6 +8,7 @@ const btnPlay = document.getElementById("btn-play")
 const msgTempo = document.getElementById("tempo")
 const msg = document.getElementById("msg")
 const entrada = document.getElementById("entrada")
+const fix = document.getElementById("fix")
 
 
 let i = 0
@@ -80,6 +81,7 @@ msg.innerHTML = `Pedro e Kayani, dois corações que se encontraram para escreve
   })
   
 }
+
 
 
 

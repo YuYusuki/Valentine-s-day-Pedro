@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: "bird" ;
-  src: url("./assets/font/Birds of Paradise.ttf");
+  src: url("/assets/font/Birds of Paradise.ttf");
 }
 :root{
   --primary-color: #C0FFC8;
@@ -53,15 +53,14 @@ box-shadow: 0 0 5px #C0FFC8,
   
 
 #tela{
-  width: 100%;
+  --width: 100%;
   background: linear-gradient(to bottom, var(--secuday-color) , var(--primary-color));
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
-    max-width: 99%;
-    height: auto;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 .content{
@@ -115,16 +114,24 @@ box-shadow: 0 0 5px #C0FFC8,
 .info .player-control i{
   cursor: pointer;
 }
-#tela #photo{
-    width: 80%;
-    max-width: 400px;
+#tela #fix{
+  width: 80%;
+  max-width: 400px;
+  object-fit: cover ;
+  aspect-ratio: 9/16;
+}
+#tela #fix #photo{
+  border-radius: 25px;
+  width: 100%;
+}
+#tela #fix video{
     border-radius: 25px;
-    object-fit: cover ;
-    aspect-ratio: 9/16;
+    width: 100%;
 }
 .msgs{
   width: 85%;
   padding: 20px;
+  margin-bottom: 15px;
 }
 
 .heart {
@@ -197,5 +204,3 @@ box-shadow: 0 0 5px #C0FFC8,
   font-size: 20px;
 }
 }
-
-
